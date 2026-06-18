@@ -16,9 +16,12 @@ $titles = [
   'animals'          => 'Animals & Sounds',
   'body'       => 'Body Parts 💪',
   'domestic' => 'Domestic Animals 🐄',
+  'fruits'     => 'Fruits 🍎',
+  'vegetables' => 'Vegetables 🥦',
   'wild'     => 'Wild Animals 🦁',
   'water'    => 'Water Animals 🐟',
   'nepali'           => 'नेपाली वर्णमाला',
+  'nepali_numbers' => 'नेपाली संख्या 🔢',
   'barakhadi'        => 'बाराखडी',
 ];
 ?>

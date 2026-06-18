@@ -49,6 +49,7 @@ $stars  = $row['stars'] ?? 0;  // if no record yet → 0 stars
   <a href="flashcard.php?subject=domestic" classcolors="tab-btn">📇 Flashcards</a>
   <a href="matching.php?subject=domestic"  class="tab-btn">🎮 Matching</a>
   <a href="drawing.php?subject=domestic"   class="tab-btn">🖍 Drawing</a>
+  <a href="quiz.php?subject=domestic"      class="tab-btn">🎯 Quiz</a>
 </div>
 
 

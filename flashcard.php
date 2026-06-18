@@ -704,6 +704,153 @@ $data = [
     ['letter'=>'त्र','word'=>'त्रिभुज','emoji'=>'🔺'],
     ['letter'=>'ज्ञ','word'=>'ज्ञान', 'emoji'=>'📚'],
 ],
+'nepali_numbers' => [
+    ['letter'=>'१',  'word'=>'एक',         'emoji'=>'एक - One'],
+    ['letter'=>'२',  'word'=>'दुई',         'emoji'=>'दुई - Two'],
+    ['letter'=>'३',  'word'=>'तीन',         'emoji'=>'तीन - Three'],
+    ['letter'=>'४',  'word'=>'चार',         'emoji'=>'चार - Four'],
+    ['letter'=>'५',  'word'=>'पाँच',        'emoji'=>'पाँच - Five'],
+    ['letter'=>'६',  'word'=>'छ',           'emoji'=>'छ - Six'],
+    ['letter'=>'७',  'word'=>'सात',         'emoji'=>'सात - Seven'],
+    ['letter'=>'८',  'word'=>'आठ',          'emoji'=>'आठ - Eight'],
+    ['letter'=>'९',  'word'=>'नौ',          'emoji'=>'नौ - Nine'],
+    ['letter'=>'१०', 'word'=>'दश',          'emoji'=>'दश - Ten'],
+    ['letter'=>'११', 'word'=>'एघार',        'emoji'=>'एघार - Eleven'],
+    ['letter'=>'१२', 'word'=>'बाह्र',       'emoji'=>'बाह्र - Twelve'],
+    ['letter'=>'१३', 'word'=>'तेह्र',       'emoji'=>'तेह्र - Thirteen'],
+    ['letter'=>'१४', 'word'=>'चौध',         'emoji'=>'चौध - Fourteen'],
+    ['letter'=>'१५', 'word'=>'पन्ध्र',      'emoji'=>'पन्ध्र - Fifteen'],
+    ['letter'=>'१६', 'word'=>'सोह्र',       'emoji'=>'सोह्र - Sixteen'],
+    ['letter'=>'१७', 'word'=>'सत्र',        'emoji'=>'सत्र - Seventeen'],
+    ['letter'=>'१८', 'word'=>'अठार',        'emoji'=>'अठार - Eighteen'],
+    ['letter'=>'१९', 'word'=>'उन्नाइस',     'emoji'=>'उन्नाइस - Nineteen'],
+    ['letter'=>'२०', 'word'=>'बीस',         'emoji'=>'बीस - Twenty'],
+    ['letter'=>'२१', 'word'=>'एक्काइस',     'emoji'=>'एक्काइस - Twenty One'],
+    ['letter'=>'२२', 'word'=>'बाइस',        'emoji'=>'बाइस - Twenty Two'],
+    ['letter'=>'२३', 'word'=>'तेइस',        'emoji'=>'तेइस - Twenty Three'],
+    ['letter'=>'२४', 'word'=>'चौबिस',       'emoji'=>'चौबिस - Twenty Four'],
+    ['letter'=>'२५', 'word'=>'पच्चीस',      'emoji'=>'पच्चीस - Twenty Five'],
+    ['letter'=>'२६', 'word'=>'छब्बिस',      'emoji'=>'छब्बिस - Twenty Six'],
+    ['letter'=>'२७', 'word'=>'सत्ताइस',     'emoji'=>'सत्ताइस - Twenty Seven'],
+    ['letter'=>'२८', 'word'=>'अट्ठाइस',     'emoji'=>'अट्ठाइस - Twenty Eight'],
+    ['letter'=>'२९', 'word'=>'उनन्तीस',     'emoji'=>'उनन्तीस - Twenty Nine'],
+    ['letter'=>'३०', 'word'=>'तीस',         'emoji'=>'तीस - Thirty'],
+    ['letter'=>'३१', 'word'=>'एकतीस',       'emoji'=>'एकतीस - Thirty One'],
+    ['letter'=>'३२', 'word'=>'बत्तीस',      'emoji'=>'बत्तीस - Thirty Two'],
+    ['letter'=>'३३', 'word'=>'तेत्तीस',     'emoji'=>'तेत्तीस - Thirty Three'],
+    ['letter'=>'३४', 'word'=>'चौतीस',       'emoji'=>'चौतीस - Thirty Four'],
+    ['letter'=>'३५', 'word'=>'पैंतीस',      'emoji'=>'पैंतीस - Thirty Five'],
+    ['letter'=>'३६', 'word'=>'छत्तीस',      'emoji'=>'छत्तीस - Thirty Six'],
+    ['letter'=>'३७', 'word'=>'सैंतीस',      'emoji'=>'सैंतीस - Thirty Seven'],
+    ['letter'=>'३८', 'word'=>'अड्तीस',      'emoji'=>'अड्तीस - Thirty Eight'],
+    ['letter'=>'३९', 'word'=>'उनन्चालीस',   'emoji'=>'उनन्चालीस - Thirty Nine'],
+    ['letter'=>'४०', 'word'=>'चालीस',       'emoji'=>'चालीस - Forty'],
+    ['letter'=>'४१', 'word'=>'एकचालीस',     'emoji'=>'एकचालीस - Forty One'],
+    ['letter'=>'४२', 'word'=>'बयालीस',      'emoji'=>'बयालीस - Forty Two'],
+    ['letter'=>'४३', 'word'=>'त्रिचालीस',   'emoji'=>'त्रिचालीस - Forty Three'],
+    ['letter'=>'४४', 'word'=>'चवालीस',      'emoji'=>'चवालीस - Forty Four'],
+    ['letter'=>'४५', 'word'=>'पैंतालीस',    'emoji'=>'पैंतालीस - Forty Five'],
+    ['letter'=>'४६', 'word'=>'छयालीस',      'emoji'=>'छयालीस - Forty Six'],
+    ['letter'=>'४७', 'word'=>'सत्चालीस',    'emoji'=>'सत्चालीस - Forty Seven'],
+    ['letter'=>'४८', 'word'=>'अड्चालीस',    'emoji'=>'अड्चालीस - Forty Eight'],
+    ['letter'=>'४९', 'word'=>'उनन्पचास',    'emoji'=>'उनन्पचास - Forty Nine'],
+    ['letter'=>'५०', 'word'=>'पचास',        'emoji'=>'पचास - Fifty'],
+    ['letter'=>'५१', 'word'=>'एकाउन्न',     'emoji'=>'एकाउन्न - Fifty One'],
+    ['letter'=>'५२', 'word'=>'बाउन्न',      'emoji'=>'बाउन्न - Fifty Two'],
+    ['letter'=>'५३', 'word'=>'त्रिपन्न',    'emoji'=>'त्रिपन्न - Fifty Three'],
+    ['letter'=>'५४', 'word'=>'चउन्न',       'emoji'=>'चउन्न - Fifty Four'],
+    ['letter'=>'५५', 'word'=>'पचपन्न',      'emoji'=>'पचपन्न - Fifty Five'],
+    ['letter'=>'५६', 'word'=>'छपन्न',       'emoji'=>'छपन्न - Fifty Six'],
+    ['letter'=>'५७', 'word'=>'सन्ताउन्न',   'emoji'=>'सन्ताउन्न - Fifty Seven'],
+    ['letter'=>'५८', 'word'=>'अन्ठाउन्न',   'emoji'=>'अन्ठाउन्न - Fifty Eight'],
+    ['letter'=>'५९', 'word'=>'उनन्साठी',    'emoji'=>'उनन्साठी - Fifty Nine'],
+    ['letter'=>'६०', 'word'=>'साठी',        'emoji'=>'साठी - Sixty'],
+    ['letter'=>'६१', 'word'=>'एकसट्ठी',     'emoji'=>'एकसट्ठी - Sixty One'],
+    ['letter'=>'६२', 'word'=>'बयसट्ठी',     'emoji'=>'बयसट्ठी - Sixty Two'],
+    ['letter'=>'६३', 'word'=>'त्रिसट्ठी',   'emoji'=>'त्रिसट्ठी - Sixty Three'],
+    ['letter'=>'६४', 'word'=>'चौसट्ठी',     'emoji'=>'चौसट्ठी - Sixty Four'],
+    ['letter'=>'६५', 'word'=>'पैसट्ठी',     'emoji'=>'पैसट्ठी - Sixty Five'],
+    ['letter'=>'६६', 'word'=>'छयसट्ठी',     'emoji'=>'छयसट्ठी - Sixty Six'],
+    ['letter'=>'६७', 'word'=>'सतसट्ठी',     'emoji'=>'सतसट्ठी - Sixty Seven'],
+    ['letter'=>'६८', 'word'=>'अड्सट्ठी',    'emoji'=>'अड्सट्ठी - Sixty Eight'],
+    ['letter'=>'६९', 'word'=>'उनन्सत्तरी',  'emoji'=>'उनन्सत्तरी - Sixty Nine'],
+    ['letter'=>'७०', 'word'=>'सत्तरी',      'emoji'=>'सत्तरी - Seventy'],
+    ['letter'=>'७१', 'word'=>'एकहत्तर',     'emoji'=>'एकहत्तर - Seventy One'],
+    ['letter'=>'७२', 'word'=>'बहत्तर',      'emoji'=>'बहत्तर - Seventy Two'],
+    ['letter'=>'७३', 'word'=>'त्रिहत्तर',   'emoji'=>'त्रिहत्तर - Seventy Three'],
+    ['letter'=>'७४', 'word'=>'चौहत्तर',     'emoji'=>'चौहत्तर - Seventy Four'],
+    ['letter'=>'७५', 'word'=>'पचहत्तर',     'emoji'=>'पचहत्तर - Seventy Five'],
+    ['letter'=>'७६', 'word'=>'छयहत्तर',     'emoji'=>'छयहत्तर - Seventy Six'],
+    ['letter'=>'७७', 'word'=>'सतहत्तर',     'emoji'=>'सतहत्तर - Seventy Seven'],
+    ['letter'=>'७८', 'word'=>'अठहत्तर',     'emoji'=>'अठहत्तर - Seventy Eight'],
+    ['letter'=>'७९', 'word'=>'उनासी',       'emoji'=>'उनासी - Seventy Nine'],
+    ['letter'=>'८०', 'word'=>'असी',         'emoji'=>'असी - Eighty'],
+    ['letter'=>'८१', 'word'=>'एकासी',       'emoji'=>'एकासी - Eighty One'],
+    ['letter'=>'८२', 'word'=>'बयासी',       'emoji'=>'बयासी - Eighty Two'],
+    ['letter'=>'८३', 'word'=>'त्रियासी',    'emoji'=>'त्रियासी - Eighty Three'],
+    ['letter'=>'८४', 'word'=>'चौरासी',      'emoji'=>'चौरासी - Eighty Four'],
+    ['letter'=>'८५', 'word'=>'पचासी',       'emoji'=>'पचासी - Eighty Five'],
+    ['letter'=>'८६', 'word'=>'छयासी',       'emoji'=>'छयासी - Eighty Six'],
+    ['letter'=>'८७', 'word'=>'सतासी',       'emoji'=>'सतासी - Eighty Seven'],
+    ['letter'=>'८८', 'word'=>'अठासी',       'emoji'=>'अठासी - Eighty Eight'],
+    ['letter'=>'८९', 'word'=>'उनान्नब्बे',  'emoji'=>'उनान्नब्बे - Eighty Nine'],
+    ['letter'=>'९०', 'word'=>'नब्बे',       'emoji'=>'नब्बे - Ninety'],
+    ['letter'=>'९१', 'word'=>'एकान्नब्बे',  'emoji'=>'एकान्नब्बे - Ninety One'],
+    ['letter'=>'९२', 'word'=>'बयान्नब्बे',  'emoji'=>'बयान्नब्बे - Ninety Two'],
+    ['letter'=>'९३', 'word'=>'त्रियान्नब्बे','emoji'=>'त्रियान्नब्बे - Ninety Three'],
+    ['letter'=>'९४', 'word'=>'चौरान्नब्बे', 'emoji'=>'चौरान्नब्बे - Ninety Four'],
+    ['letter'=>'९५', 'word'=>'पन्चान्नब्बे','emoji'=>'पन्चान्नब्बे - Ninety Five'],
+    ['letter'=>'९६', 'word'=>'छयान्नब्बे',  'emoji'=>'छयान्नब्बे - Ninety Six'],
+    ['letter'=>'९७', 'word'=>'सन्तान्नब्बे','emoji'=>'सन्तान्नब्बे - Ninety Seven'],
+    ['letter'=>'९८', 'word'=>'अन्ठान्नब्बे','emoji'=>'अन्ठान्नब्बे - Ninety Eight'],
+    ['letter'=>'९९', 'word'=>'उनान्सय',     'emoji'=>'उनान्सय - Ninety Nine'],
+    ['letter'=>'१००','word'=>'एक सय',       'emoji'=>'एक सय - One Hundred'],
+],
+'fruits' => [
+    ['letter'=>'🍎', 'word'=>'Apple',      'emoji'=>'स्याउ'],
+    ['letter'=>'🍌', 'word'=>'Banana',     'emoji'=>'केरा'],
+    ['letter'=>'🍊', 'word'=>'Orange',     'emoji'=>'सुन्तला'],
+    ['letter'=>'🍇', 'word'=>'Grapes',     'emoji'=>'अङ्गुर'],
+    ['letter'=>'🍓', 'word'=>'Strawberry', 'emoji'=>'स्ट्रबेरी'],
+    ['letter'=>'🍉', 'word'=>'Watermelon', 'emoji'=>'तरबुजा'],
+    ['letter'=>'🍍', 'word'=>'Pineapple',  'emoji'=>'भूईकटहर'],
+    ['letter'=>'🥭', 'word'=>'Mango',      'emoji'=>'आँप'],
+    ['letter'=>'🍑', 'word'=>'Peach',      'emoji'=>'आरु'],
+    ['letter'=>'🍒', 'word'=>'Cherry',     'emoji'=>'चेरी'],
+    ['letter'=>'🍋', 'word'=>'Lemon',      'emoji'=>'कागती'],
+    ['letter'=>'🍐', 'word'=>'Pear',       'emoji'=>'नाशपाती'],
+    ['letter'=>'🫐', 'word'=>'Blueberry',  'emoji'=>'ब्लुबेरी'],
+    ['letter'=>'🥝', 'word'=>'Kiwi',       'emoji'=>'किवी'],
+    ['letter'=>'🍈', 'word'=>'Melon',      'emoji'=>'खरबुजा'],
+    ['letter'=>'🥥', 'word'=>'Coconut',    'emoji'=>'नरिवल'],
+    ['letter'=>'🍏', 'word'=>'Green Apple','emoji'=>'हरियो स्याउ'],
+    ['letter'=>'🫒', 'word'=>'Olive',      'emoji'=>'जैतुन'],
+    ['letter'=>'🍅', 'word'=>'Tomato',     'emoji'=>'गोलभेडा'],
+    ['letter'=>'🌽', 'word'=>'Corn',       'emoji'=>'मकै'],
+],
+
+'vegetables' => [
+    ['letter'=>'🥦', 'word'=>'Broccoli',   'emoji'=>'ब्रोकाउली'],
+    ['letter'=>'🥕', 'word'=>'Carrot',     'emoji'=>'गाजर'],
+    ['letter'=>'🥔', 'word'=>'Potato',     'emoji'=>'आलु'],
+    ['letter'=>'🧅', 'word'=>'Onion',      'emoji'=>'प्याज'],
+    ['letter'=>'🧄', 'word'=>'Garlic',     'emoji'=>'लसुन'],
+    ['letter'=>'🌶️', 'word'=>'Chilli',     'emoji'=>'खुर्सानी'],
+    ['letter'=>'🫑', 'word'=>'Capsicum',   'emoji'=>'भेडे खुर्सानी'],
+    ['letter'=>'🥒', 'word'=>'Cucumber',   'emoji'=>'काँक्रो'],
+    ['letter'=>'🍆', 'word'=>'Brinjal',    'emoji'=>'भन्टा'],
+    ['letter'=>'🥬', 'word'=>'Spinach',    'emoji'=>'पालुंगो'],
+    ['letter'=>'🫛', 'word'=>'Peas',       'emoji'=>'मटर'],
+    ['letter'=>'🌿', 'word'=>'Coriander',  'emoji'=>'धनियाँ'],
+    ['letter'=>'🍄', 'word'=>'Mushroom',   'emoji'=>'च्याउ'],
+    ['letter'=>'🥜', 'word'=>'Peanut',     'emoji'=>'बदाम'],
+    ['letter'=>'🫘', 'word'=>'Beans',      'emoji'=>'सिमी'],
+    ['letter'=>'🥗', 'word'=>'Lettuce',    'emoji'=>'लेट्युस'],
+    ['letter'=>'🌰', 'word'=>'Chestnut',   'emoji'=>'काष्ठफल'],
+    ['letter'=>'🫚', 'word'=>'Ginger',     'emoji'=>'अदुवा'],
+    ['letter'=>'🌱', 'word'=>'Radish',     'emoji'=>'मूला'],
+    ['letter'=>'🎃', 'word'=>'Pumpkin',    'emoji'=>'फर्सी'],
+],
 ];
 
 
@@ -711,6 +858,8 @@ $titles = [
   'abc'            => 'ABC & Letters',
   'nepali'         => 'नेपाली वर्णमाला',
   'numbers'        => 'Numbers & Counting',
+  'fruits'     => 'Fruits 🍎',
+  'vegetables' => 'Vegetables 🥦',
   'colors'         => 'Colors & Shapes',
   'animals'        => 'Animals & Sounds',
   'body'           => 'Body Parts 💪',
@@ -718,6 +867,7 @@ $titles = [
   'domestic'       => 'Domestic Animals 🐄',
   'wild'           => 'Wild Animals 🦁',
   'water'          => 'Water Animals 🐟',
+  'nepali_numbers' => 'नेपाली संख्या 🔢',
 ];
 
 $cards = $data[$subject];
@@ -737,6 +887,12 @@ $cards = $data[$subject];
     <div class="big-letter" id="fc-letter"></div>
     <div class="big-emoji"  id="fc-emoji"></div>
     <div class="fc-word"    id="fc-word"></div>
+  
+
+     <!-- ✅ ADD THIS speak button -->
+    <button class="speak-btn" onclick="speakCard()" id="speak-btn">
+      🔊 Listen
+    </button>
   </div>
 
   <div class="fc-nav">
@@ -747,31 +903,64 @@ $cards = $data[$subject];
 
   <!-- NO script.js here! All JS is inline below -->
   <script>
+    
     const cards = <?php echo json_encode($cards); ?>;
-    let fcIndex = 0;
+      let fcIndex = 0;
 
-    function showCard(index) {
-      document.getElementById('fc-letter').textContent = cards[index].letter;
-      document.getElementById('fc-emoji').textContent  = cards[index].emoji;
-      document.getElementById('fc-word').textContent   = cards[index].word;
-      document.getElementById('fc-count').textContent  = (index+1) + ' / ' + cards.length;
-    }
+      // =====================
+      // SPEECH FUNCTION
+      // =====================
+      function speak(text, lang) {
+        // Stop any current speech
+        window.speechSynthesis.cancel();
 
-    function fcNext() {
-      if (fcIndex < cards.length - 1) {
-        fcIndex++;
-        showCard(fcIndex);
+        const utterance     = new SpeechSynthesisUtterance(text);
+        utterance.lang      = lang || 'en-US';
+        utterance.rate      = 0.8;   // slightly slow for kids
+        utterance.pitch     = 1.2;   // slightly high pitch for kids
+        utterance.volume    = 1;
+
+        window.speechSynthesis.speak(utterance);
       }
-    }
 
-    function fcPrev() {
-      if (fcIndex > 0) {
-        fcIndex--;
-        showCard(fcIndex);
+      function speakCard() {
+        const card = cards[fcIndex];
+
+        // Detect if Nepali content
+        const isNepali = /[\u0900-\u097F]/.test(card.letter + card.word);
+        const lang     = isNepali ? 'hi-IN' : 'en-US';
+
+        // Speak letter then word
+        const text = card.letter + ' — ' + card.word;
+        speak(text, lang);
       }
-    }
 
-    showCard(0);
+      function showCard(index) {
+        document.getElementById('fc-letter').textContent = cards[index].letter;
+        document.getElementById('fc-emoji').textContent  = cards[index].emoji;
+        document.getElementById('fc-word').textContent   = cards[index].word;
+        document.getElementById('fc-count').textContent  = (index + 1) + ' / ' + cards.length;
+
+        // Auto speak when card changes
+        speakCard();
+      }
+
+      function fcNext() {
+        if (fcIndex < cards.length - 1) {
+          fcIndex++;
+          showCard(fcIndex);
+        }
+      }
+
+      function fcPrev() {
+        if (fcIndex > 0) {
+          fcIndex--;
+          showCard(fcIndex);
+        }
+      }
+
+      showCard(0);
+   
   </script>
 
 </body>

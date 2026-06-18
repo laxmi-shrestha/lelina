@@ -572,3 +572,323 @@ body {
   .tabs               { gap: 7px; }
   .tab-btn            { padding: 10px 14px; font-size: 13px; }
 }
+
+
+/* ===========================
+   QUIZ PAGE
+=========================== */
+
+/* Progress bar */
+.quiz-progress {
+  background: rgba(255,255,255,0.3);
+  border-radius: 20px;
+  height: 12px;
+  margin: 16px 0;
+  overflow: hidden;
+}
+
+.quiz-progress-bar {
+  background: #FFD700;
+  height: 100%;
+  border-radius: 20px;
+  width: 0%;
+  transition: width 0.4s ease;
+}
+
+/* Score */
+.quiz-score {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+/* Question box */
+.quiz-box {
+  background: rgba(255,255,255,0.97);
+  border-radius: 24px;
+  padding: 28px 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  margin-bottom: 16px;
+}
+
+.question-number {
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.question-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #3C3489;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Options grid */
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.option-btn {
+  padding: 14px 10px;
+  border-radius: 16px;
+  border: 2px solid #e0e0e0;
+  background: #f9f9f9;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  color: #333;
+}
+
+.option-btn:hover  { background: #EEEDFE; border-color: #7F77DD; color: #3C3489; }
+.option-btn.correct{ background: #E1F5EE; border-color: #0F6E56; color: #0F6E56; }
+.option-btn.wrong  { background: #FCEBEB; border-color: #E24B4A; color: #E24B4A; }
+
+/* Feedback */
+.quiz-feedback {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  min-height: 28px;
+}
+
+.correct-feedback { color: #0F6E56; }
+.wrong-feedback   { color: #E24B4A; }
+
+/* Result screen */
+.quiz-result {
+  background: rgba(255,255,255,0.97);
+  border-radius: 24px;
+  padding: 40px 24px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+.result-emoji { font-size: 72px; margin-bottom: 16px; }
+.result-text  { font-size: 22px; font-weight: 700; color: #3C3489; margin-bottom: 10px; }
+.result-score { font-size: 16px; color: #888; margin-bottom: 20px; }
+
+/* ===========================
+   HISTORY PAGE
+=========================== */
+
+/* Profile card */
+.history-profile {
+  background: rgba(255,255,255,0.97);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.history-profile img {
+  border-radius: 50%;
+  border: 3px solid #7F77DD;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.history-profile-info h2 {
+  font-size: 20px;
+  color: #3C3489;
+  margin-bottom: 4px;
+}
+
+.history-profile-info p {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 2px;
+}
+
+/* Total stars banner */
+.total-stars-banner {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 16px rgba(255,165,0,0.4);
+}
+
+.total-stars-emoji { font-size: 40px; margin-bottom: 8px; }
+
+.total-stars-count {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.total-stars-sub {
+  font-size: 14px;
+  color: rgba(255,255,255,0.85);
+  margin-top: 4px;
+}
+
+/* Section title */
+.history-section-title {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  margin: 16px 0 12px;
+}
+
+/* History grid */
+.history-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+/* History card */
+.history-card {
+  background: rgba(255,255,255,0.97);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.history-card.locked {
+  opacity: 0.75;
+}
+
+.history-card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.history-emoji { font-size: 32px; }
+
+.history-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #3C3489;
+}
+
+.history-card-date {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 2px;
+}
+
+/* Stars */
+.history-stars {
+  font-size: 20px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.history-star-count {
+  font-size: 13px;
+  color: #aaa;
+  font-weight: 600;
+}
+
+/* Progress bar */
+.history-bar-wrap {
+  background: #f0f0f0;
+  border-radius: 10px;
+  height: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.history-bar {
+  background: linear-gradient(90deg, #7F77DD, #D4537E);
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.6s ease;
+}
+
+/* Play button */
+.history-play-btn {
+  display: inline-block;
+  padding: 7px 16px;
+  border-radius: 12px;
+  background: #EEEDFE;
+  color: #3C3489;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+.history-play-btn:hover {
+  background: #7F77DD;
+  color: #fff;
+}
+
+/* Empty state */
+.history-empty {
+  background: rgba(255,255,255,0.97);
+  border-radius: 20px;
+  padding: 40px 24px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.history-empty p {
+  font-size: 16px;
+  color: #888;
+  margin: 8px 0;
+}
+
+/* Add to style.css */
+.history-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: #7F77DD;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.15s;
+}
+
+.history-btn:hover {
+  background: #6860cc;
+  transform: scale(1.05);
+}
+
+
+/* Speak button */
+.speak-btn {
+  margin-top: 14px;
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(135deg, #7F77DD, #D4537E);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(127,119,221,0.4);
+  transition: all 0.15s;
+}
+
+.speak-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(127,119,221,0.5);
+}
+
+.speak-btn:active {
+  transform: scale(0.97);
+}

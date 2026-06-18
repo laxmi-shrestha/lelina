@@ -36,6 +36,31 @@ $matchData = [
     ['key'=>'5', 'value'=>'5️⃣'],
     ['key'=>'6', 'value'=>'6️⃣'],
   ],
+  'nepali_numbers' => [
+    ['key'=>'१', 'value'=>'एक'],
+    ['key'=>'२', 'value'=>'दुई'],
+    ['key'=>'३', 'value'=>'तीन'],
+    ['key'=>'४', 'value'=>'चार'],
+    ['key'=>'५', 'value'=>'पाँच'],
+    ['key'=>'६', 'value'=>'छ'],
+  ],
+  'fruits' => [
+    ['key'=>'🍎', 'value'=>'Apple'],
+    ['key'=>'🍌', 'value'=>'Banana'],
+    ['key'=>'🍊', 'value'=>'Orange'],
+    ['key'=>'🍇', 'value'=>'Grapes'],
+    ['key'=>'🥭', 'value'=>'Mango'],
+    ['key'=>'🍉', 'value'=>'Watermelon'],
+  ],
+
+'vegetables' => [
+    ['key'=>'🥦', 'value'=>'Broccoli'],
+    ['key'=>'🥕', 'value'=>'Carrot'],
+    ['key'=>'🥔', 'value'=>'Potato'],
+    ['key'=>'🧅', 'value'=>'Onion'],
+    ['key'=>'🌶️', 'value'=>'Chilli'],
+    ['key'=>'🥒', 'value'=>'Cucumber'],
+  ],
   'colors' => [
     ['key'=>'Red',    'value'=>'🔴'],
     ['key'=>'Blue',   'value'=>'🔵'],
@@ -176,6 +201,8 @@ $pairs = $matchData[$subject];
       div.classList.add('flipped');
       flipped.push({ div, card });
 
+      speak(card.value, 'en-US');
+
       if (flipped.length === 2) {
         disabled = true;
         setTimeout(() => checkMatch(), 700);
@@ -191,12 +218,16 @@ $pairs = $matchData[$subject];
         b.div.classList.add('matched');
         matched.push(a.card.id);
 
+        speak('Great match!', 'en-US'); 
+
         if (matched.length === matchingPairs.length) {
           document.getElementById('match-status').textContent = "🎉 You matched them all! Well done!";
           document.getElementById('match-status').className   = "match-status win";
+          speak('Amazing! You matched them all!', 'en-US');
           saveStars(3);
         }
       } else {
+        speak('Try again!', 'en-US');
         // ❌ Wrong - flip back
         setTimeout(() => {
           a.div.textContent = '⭐';
@@ -208,6 +239,17 @@ $pairs = $matchData[$subject];
 
       flipped  = [];
       disabled = false;
+    }
+
+
+      function speak(text, lang) {
+      window.speechSynthesis.cancel();
+      const utterance  = new SpeechSynthesisUtterance(text);
+      utterance.lang   = lang || 'en-US';
+      utterance.rate   = 0.8;
+      utterance.pitch  = 1.2;
+      utterance.volume = 1;
+      window.speechSynthesis.speak(utterance);
     }
 
     function saveStars(stars) {

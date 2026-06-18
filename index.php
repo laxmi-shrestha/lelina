@@ -22,6 +22,8 @@ if (!isset($_SESSION['student_id'])) {
   <img src="assets/image.png" alt="" height="200px" width="150px">
   <h1>Welcome to Learn & Play! 🌟</h1>
   <p>Choose what you want to learn today!</p>
+  <!-- Add this inside welcome banner -->
+  <a href="history.php" class="history-btn">📊 My Progress</a>
 
   <div class="home-grid">
 
@@ -45,6 +47,28 @@ if (!isset($_SESSION['student_id'])) {
         <p>Numbers & Counting</p>
       </div>
     </a>
+
+    <a href="nepali_numbers.php">
+      <div class="subject-card">
+        <span>🔢</span>
+        <p>नेपाली संख्या</p>
+      </div>
+    </a>
+
+    <a href="fruits.php">
+      <div class="subject-card">
+        <span>🍎</span>
+        <p>Fruits</p>
+      </div>
+    </a>
+
+    <a href="vegetables.php">
+      <div class="subject-card">
+        <span>🥦</span>
+        <p>vegetables</p>
+      </div>
+    </a>
+
 
     <a href="colors.php">
       <div class="subject-card">
