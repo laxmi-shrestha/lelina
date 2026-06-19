@@ -124,6 +124,8 @@ $titles = [
   'abc'            => 'ABC & Letters',
   'nepali'         => 'नेपाली वर्णमाला',
   'numbers'        => 'Numbers & Counting',
+  'fruits'     => 'Fruits 🍎',
+  'vegetables' => 'Vegetables 🥦',
   'colors'         => 'Colors & Shapes',
   'animals'        => 'Animals & Sounds',
   'body'           => 'Body Parts 💪',
@@ -131,6 +133,7 @@ $titles = [
   'domestic'       => 'Domestic Animals 🐄',
   'wild'           => 'Wild Animals 🦁',
   'water'          => 'Water Animals 🐟',
+  'nepali_numbers' => 'नेपाली संख्या 🔢',
 ];
 
 $pairs = $matchData[$subject];

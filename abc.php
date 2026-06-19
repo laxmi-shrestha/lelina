@@ -52,10 +52,6 @@ $stars  = $row['stars'] ?? 0;  // if no record yet → 0 stars
   <a href="quiz.php?subject=abc"      class="tab-btn">🎯 Quiz</a>
 </div>
 
-
-
-
-
   <script src="script.js"></script>
 </body>
 </html>

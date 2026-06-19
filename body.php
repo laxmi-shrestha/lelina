@@ -46,7 +46,7 @@ $stars  = $row['stars'] ?? 0;  // if no record yet → 0 stars
 
   <!-- Instead of tab buttons -->
 <div class="tabs">
-  <a href="flashcard.php?subject=body" classcolors="tab-btn">📇 Flashcards</a>
+  <a href="flashcard.php?subject=body" class="tab-btn">📇 Flashcards</a>
   <a href="matching.php?subject=body"  class="tab-btn">🎮 Matching</a>
   <a href="drawing.php?subject=body"   class="tab-btn">🖍 Drawing</a>
   <a href="quiz.php?subject=body"      class="tab-btn">🎯 Quiz</a>

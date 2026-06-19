@@ -117,10 +117,10 @@ $titles = [
   'nepali_numbers'  => 'नेपाली संख्या',
   'fruits'          => 'Fruits 🍎',
   'vegetables'      => 'Vegetables 🥦',
-  'body_parts'      => 'Body Parts 💪',
-  'domestic_animals'=> 'Domestic Animals 🐄',
-  'wild_animals'    => 'Wild Animals 🦁',
-  'water_animals'   => 'Water Animals 🐟',
+  'body'      => 'Body Parts 💪',
+  'domestic'=> 'Domestic Animals 🐄',
+  'wild'    => 'Wild Animals 🦁',
+  'water'   => 'Water Animals 🐟',
 ];
 
 $questions = $quizData[$subject] ?? $quizData['abc'];

@@ -5,6 +5,19 @@ if (!isset($_SESSION['student_id'])) {
     header("Location: registration.php");
     exit();
 }
+
+// Save progress when she finishes
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $subject = "vegetables";
+    $stars   = $_POST['stars'];
+    $id      = $_SESSION['student_id'];
+
+    $sql = "INSERT INTO progress (student_id, subject, stars, last_played)
+            VALUES ('$id', '$subject', '$stars', NOW())
+            ON DUPLICATE KEY UPDATE stars='$stars', last_played=NOW()";
+
+    mysqli_query($conn, $sql);
+}
 $id     = $_SESSION['student_id'];
 $sql    = "SELECT stars FROM progress WHERE student_id='$id' AND subject='vegetables'";
 $result = mysqli_query($conn, $sql);
@@ -18,15 +31,13 @@ $stars  = $row['stars'] ?? 0;
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="subject-wrapper">
-  <a href="index.php" class="back-btn">← Back</a>
-  <div class="subject-header">
-    <img src="assets/lekha1.png" width="60px" height="60px">
-    <div>
-      <h1>🥦 Vegetables</h1>
-      <p>Stars earned: <?php echo str_repeat('⭐', $stars) ?: '☆☆☆'; ?></p>
-    </div>
-  </div>
+<img src="assets/lekha3.png" alt="" width="150px" height="200px">
+  <br><br>
+  <!-- Back button -->
+  <a href="index.php">← Back</a>
+
+  <h1>Vegetables 🥦</h1>
+  <p>Stars earned: <?php echo $stars; ?> ⭐</p>
   <div class="tabs">
     <a href="flashcard.php?subject=vegetables" class="tab-btn">📇 Flashcards</a>
     <a href="matching.php?subject=vegetables"  class="tab-btn">🎮 Matching</a>
@@ -34,5 +45,6 @@ $stars  = $row['stars'] ?? 0;
     <a href="quiz.php?subject=vegetables"      class="tab-btn">🎯 Quiz</a>
   </div>
 </div>
+  <script src="script.js"></script>
 </body>
 </html>
