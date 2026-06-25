@@ -924,16 +924,16 @@ $cards = $data[$subject];
       }
 
       function speakCard() {
-        const card = cards[fcIndex];
+  const card = cards[fcIndex];
+  const isNepali = /[\u0900-\u097F]/.test(card.word);
 
-        // Detect if Nepali content
-        const isNepali = /[\u0900-\u097F]/.test(card.letter + card.word);
-        const lang     = isNepali ? 'hi-IN' : 'en-US';
-
-        // Speak letter then word
-        const text = card.letter + ' — ' + card.word;
-        speak(text, lang);
-      }
+  if (isNepali) {
+    speak(card.word, 'hi-IN');  // Hindi voice reads Devanagari script
+  } else {
+    const text = card.letter + ' — ' + card.word;
+    speak(text, 'en-US');
+  }
+}
 
       function showCard(index) {
         document.getElementById('fc-letter').textContent = cards[index].letter;
